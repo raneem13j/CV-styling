@@ -5,10 +5,11 @@
 html {
  
  background-color: black;
+ font-family: sans-serif;
 }
 
 
-@media all and (min-width:480px) {
+@media all and (min-width: 874px) {
     
 
 
@@ -77,10 +78,14 @@ p {
     opacity: 50%;
 }
 h3::before {
-    content: "•"; 
-    color: red;
+    content: " "; 
+    background: red;
     display: inline-block; 
-    width: 1em;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 4px;
+
     
 }
 
@@ -132,12 +137,17 @@ h3 {
 #contact h3 {
     display: none;
 }
-.skills-primary > .skill > span {
-    padding-right: 40%;
-    
+
+
+
+#contact {
+    position: fixed;
+    top: 20px;
+    right: 460px;
+    width: 27%;
 }
-.skills-secondary > .skill > span {
-    padding-right: 60%;
+.skills-primary span, .skills-secondary span{
+    padding-right: 50%;
 }
 
 }
