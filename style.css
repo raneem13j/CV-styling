@@ -30,6 +30,7 @@ a {
     display: grid;
     grid-template-columns:3fr 3fr;
     gap: 10px;
+    padding: 30px;
     
 }
 header > div{
@@ -66,7 +67,7 @@ p {
 .skill span{
     background-color: red;
     color:white;
-    width: 50%
+    
     
 }
 .skills-secondary{
@@ -134,4 +135,11 @@ h3 {
 }
 #contact h3 {
     display: none;
+}
+.skills-primary > .skill > span {
+    padding-right: 40%;
+    
+}
+.skills-secondary > .skill > span {
+    padding-right: 60%;
 }
