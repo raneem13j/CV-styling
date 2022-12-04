@@ -3,11 +3,13 @@
     margin: 0;
 }
 html {
- box-sizing: border-box;
+ 
  background-color: black;
 }
 
 
+@media all and (min-width:480px) {
+    
 
 
 body {
@@ -29,8 +31,9 @@ a {
     margin-top: 20px;
     display: grid;
     grid-template-columns:3fr 3fr;
+    
     gap: 10px;
-    padding: 30px;
+    padding: 40px;
     
 }
 header > div{
@@ -111,14 +114,7 @@ h4 {
 .experience-date-separator {
     color:red;
 }
-#contact {
-    position: fixed;
-    top:20px;
-    right: 460px;
-    width:27%;
-    
 
-}
 ul {
     padding-left: 40px;
     padding-top:10px ;
@@ -143,3 +139,6 @@ h3 {
 .skills-secondary > .skill > span {
     padding-right: 60%;
 }
+
+}
+
