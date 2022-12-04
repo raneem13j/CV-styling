@@ -1,0 +1,137 @@
+*, ::before, ::after{
+    padding: 0;
+    margin: 0;
+}
+html {
+ box-sizing: border-box;
+ background-color: black;
+}
+
+
+
+
+body {
+    width: 1000px;
+    margin: auto;
+    height: 100%;
+    background-color: white;
+    color:black;
+
+}
+a {
+    text-decoration: none;
+    color:red;
+    
+    
+   
+}
+.content {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:3fr 3fr;
+    gap: 10px;
+    
+}
+header > div{
+    color: red;
+    background-color: gray;
+    display: flex;
+    
+}
+h2 {
+    padding-bottom: 30px;
+    padding-left: 90px;
+    
+} 
+
+h1 {
+    padding-left: 90px;
+    padding-bottom:-20px;
+}
+
+
+
+
+p {
+    max-width: 50em;
+    padding-top: 10px;
+}
+.skill {
+    width:30em;
+    height: 20%;
+    background-color: rgb(206, 201, 201);
+   margin: 5px;
+   padding: 5px;
+}
+.skill span{
+    background-color: red;
+    color:white;
+    width: 50%
+    
+}
+.skills-secondary{
+    opacity: 50%;
+}
+h3::before {
+    content: "•"; 
+    color: red;
+    display: inline-block; 
+    width: 1em;
+    
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.contact-type {
+    color:white;
+    background-color: red;
+    padding-left: 2px;
+    width:65%;
+}
+.contacts {
+    background-color: black;
+   
+}
+
+h4 { 
+    color:red;
+}
+.experience-institution {
+    font-weight: 100 ;
+}
+.experience-date{
+    color:gray;
+}
+.experience-location {
+    color: gray;
+}
+.experience-date-separator {
+    color:red;
+}
+#contact {
+    position: fixed;
+    top:20px;
+    right: 460px;
+    width:27%;
+    
+
+}
+ul {
+    padding-left: 40px;
+    padding-top:10px ;
+}
+h3 {
+    padding-bottom: 10px;
+    border-bottom:#898986 1px solid;
+}
+.experience {
+    padding-top:10px;
+}
+.skills {
+    padding-top: 10px;
+}
+#contact h3 {
+    display: none;
+}
