@@ -1,10 +1,14 @@
+html {
+    font-family:sans-serif ;
+}
 body {
     margin: 0px;
+    width: 100%;
     
 }
 @media all and (max-width: 874px){
     header {
-        background-color: white0;
+        background-color: white;
         display: flex;
         height: 60px;
         border-bottom:rgb(158, 153, 153) 1px solid ;
@@ -78,9 +82,6 @@ body {
     h4 .experience-institution {
         display: none;
     }
-    .experience {
-        
-    }
     
      .experience-details{
         opacity: 0.5;
@@ -134,4 +135,61 @@ body {
         grid-row-start: 3;
     }
    
+}
+@media all and (min-width: 874px) {
+body {
+ 
+ padding-left: 450px;
+}
+header{
+    max-width: 1000px;
+    border-bottom:rgb(158, 153, 153) 1px solid ;
+}
+
+    header div {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        
+        height: 100px;
+    }
+    h2 {
+        display: none;
+    }
+    figure{
+        padding-left: 600px;
+    }
+    .content{
+        max-width: 1000px;
+    
+    
+    }
+    h1 {
+        padding-bottom: 20px;
+    }
+    #about h3{
+        display: none;
+    }
+    #about p {
+        opacity: 0.5;
+    }
+    #competencies {
+        padding-top: 50px;
+    }
+    h3 {
+        font-size:25px ;
+       
+    }
+    .skills,
+    .experience,
+    ul {
+        margin-left: 190px;
+        padding-left: 5px;
+        border-left: black 1px solid;
+        
+    }
+
+
+
+
 }
