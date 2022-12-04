@@ -1,145 +1,137 @@
-*, ::before, ::after{
-    padding: 0;
-    margin: 0;
-}
-html {
- box-sizing: border-box;
- background-color: black;
-}
-
-
-
-
 body {
-    width: 1000px;
-    margin: auto;
-    height: 100%;
-    background-color: white;
-    color:black;
-
+    margin: 0px;
+    
 }
-a {
-    text-decoration: none;
-    color:red;
+@media all and (max-width: 874px){
+    header {
+        background-color: white0;
+        display: flex;
+        height: 60px;
+        border-bottom:rgb(158, 153, 153) 1px solid ;
+    }
+    header div {
+        margin-left: 40px;
+    }
+    header div hgroup {
+        color:black;
+    }
+    h2 {
+        display: none;
+    }
+    figure{
+        display: none;
+    }
+    .content {
+        margin-top: 20px;
+    }
+    #about,
+    #competencies,
+    #experiences,
+    #education,
+    #hobbies,
+    #contact{
+        width:95%;
+        margin-left: 5%;
+        
+        }
+        #competencies {
+            margin-top: 20%;
+        }
+    #about p{
+        margin-top:px ;
+        
+        opacity: 0.5;
+    }    
+    #about h3{
+        display: none;
+    }
+    h3 {
+        border-bottom: black 1px solid;
+        font-size:25px ;
+    }
+    .skills-primary, .skills-secondary {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        
+
+    }
+    .skill {
+        border: white 2px solid;
+        background-color: #006666;
+        color:white;
+        width: 100px;
+        
+
+    }
+    .skills-primary {
+        height: 45px;
+    }
+    .skills-secondary{
+        height:30px ;
+    }
+    h4 {
+        color:#006666;
+        
+    }
+    h4 .experience-institution {
+        display: none;
+    }
+    .experience {
+        
+    }
     
-    
+     .experience-details{
+        opacity: 0.5;
+        align-items:center
+     } 
+     a {
+        display: none;
+     }
+     .contact-type, .contact-value{
+        display: none;
+     }
+     .contacts {
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px;
+    }
+
+    .contact-email {
+        background: url("../images/email.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 70px;
+        height: 70px;
+    }
+
+    .contact-phone {
+        background: url("../images/phone.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 70px;
+        height: 70px;
+    }
+
+    .contact-github {
+        background: url("../images/github.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 70px;
+        height: 70px;
+    }
+
+    .contact-facebook {
+        background: url("../images/facebook.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 70px;
+        height: 70px;
+    }
+
+    .contact-skype {
+        grid-row-start: 3;
+    }
    
-}
-.content {
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns:3fr 3fr;
-    gap: 10px;
-    padding: 30px;
-    
-}
-header > div{
-    color: red;
-    background-color: gray;
-    display: flex;
-    
-}
-h2 {
-    padding-bottom: 30px;
-    padding-left: 90px;
-    
-} 
-
-h1 {
-    padding-left: 90px;
-    padding-bottom:-20px;
-}
-
-
-
-
-p {
-    max-width: 50em;
-    padding-top: 10px;
-}
-.skill {
-    width:30em;
-    height: 20%;
-    background-color: rgb(206, 201, 201);
-   margin: 5px;
-   padding: 5px;
-}
-.skill span{
-    background-color: red;
-    color:white;
-    
-    
-}
-.skills-secondary{
-    opacity: 50%;
-}
-h3::before {
-    content: "•"; 
-    color: red;
-    display: inline-block; 
-    width: 1em;
-    
-}
-
-.contact {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-.contact-type {
-    color:white;
-    background-color: red;
-    padding-left: 2px;
-    width:65%;
-}
-.contacts {
-    background-color: black;
-   
-}
-
-h4 { 
-    color:red;
-}
-.experience-institution {
-    font-weight: 100 ;
-}
-.experience-date{
-    color:gray;
-}
-.experience-location {
-    color: gray;
-}
-.experience-date-separator {
-    color:red;
-}
-#contact {
-    position: fixed;
-    top:20px;
-    right: 460px;
-    width:27%;
-    
-
-}
-ul {
-    padding-left: 40px;
-    padding-top:10px ;
-}
-h3 {
-    padding-bottom: 10px;
-    border-bottom:#898986 1px solid;
-}
-.experience {
-    padding-top:10px;
-}
-.skills {
-    padding-top: 10px;
-}
-#contact h3 {
-    display: none;
-}
-.skills-primary > .skill > span {
-    padding-right: 40%;
-    
-}
-.skills-secondary > .skill > span {
-    padding-right: 60%;
 }
