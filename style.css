@@ -56,13 +56,11 @@ body {
     .skills-primary, .skills-secondary {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        
-        
+        justify-content: space-around; 
 
     }
     .skill {
-        border: white 2px solid;
+        border: white 5px solid;
         background-color: #006666;
         color:white;
         width: 100px;
@@ -85,7 +83,8 @@ body {
     
      .experience-details{
         opacity: 0.5;
-        align-items:center
+        float: right;
+        margin-top: -40px;
      } 
      a {
         display: none;
@@ -94,9 +93,8 @@ body {
         display: none;
      }
      .contacts {
-        display: grid;
-        grid-template-columns: 100px 100px 100px;
-        grid-template-rows: 100px 100px;
+       display: flex;
+       justify-content: space-between;
     }
 
     .contact-email {
@@ -161,6 +159,7 @@ header{
     }
     .content{
         max-width: 1000px;
+        display: inline-block;
     
     
     }
@@ -172,6 +171,7 @@ header{
     }
     #about p {
         opacity: 0.5;
+        max-width: 700px;
     }
     #competencies {
         padding-top: 50px;
@@ -180,16 +180,98 @@ header{
         font-size:25px ;
        
     }
+
+
     .skills,
-    .experience,
-    ul {
-        margin-left: 190px;
+    .experience {
+        margin-left: 170px;
         padding-left: 5px;
         border-left: black 1px solid;
         
     }
+    ul{ margin-left: 170px;
+        padding-left: 40px;
+        border-left: black 1px solid;
+    }
 
-
-
+img {
+    transform: rotate(-20deg);
+}
+.skill {
+    border: white 5px solid;
+    background-color: #006666;
+    color:white;
+    width: 100px;
+    
 
 }
+.skills-primary {
+    height: 45px;
+}
+.skills-secondary{
+    height:30px ;
+}
+h4 {
+    color:#006666;
+    
+}
+h4 .experience-institution {
+    display: none;
+}
+
+ .experience-details{
+    opacity: 0.5;
+    float:right;
+    margin-top: -42px;
+ } 
+ a {
+    display: none;
+ }
+ .contact-type, .contact-value{
+    display: none;
+ }
+ .contacts {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 250px;
+ }
+
+
+.contact-email {
+    background: url("../images/email.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+}
+
+.contact-phone {
+    background: url("../images/phone.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+}
+
+.contact-github {
+    background: url("../images/github.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+}
+
+.contact-facebook {
+    background: url("../images/facebook.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+}
+
+.skills-primary, .skills-secondary {
+    display: flex;
+    flex-direction: row;
+}
+
+} 
