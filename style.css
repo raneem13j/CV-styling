@@ -42,6 +42,7 @@ header > div{
     background-color: gray;
     display: flex;
     
+    
 }
 h2 {
     padding-bottom: 30px;
@@ -138,10 +139,8 @@ h3 {
     display: none;
 }
 
-
-
 #contact {
-    position: fixed;
+    position: absolute;
     top: 20px;
     right: 460px;
     width: 27%;
@@ -149,6 +148,126 @@ h3 {
 .skills-primary span, .skills-secondary span{
     padding-right: 50%;
 }
+
+}
+
+@media all and (max-width:874px) {
+
+header {
+    background-color: gray;
+    color: red;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+h2 {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    
+} 
+
+h1 {
+    padding-left: 30px;
+    padding-bottom:-20px;
+    padding-top: 20px;
+}
+
+body{
+    background-color: white;
+}
+#about {
+    padding-top: 50px;
+}
+h3::before {
+    content: " "; 
+    background: red;
+    display: inline-block; 
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+h3 {
+    font-size:20px;
+    padding-top: 30px;
+    border-bottom: #898986 1px solid;
+    padding-bottom: 10px;
+}
+.content{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+p {
+    max-width: 50em;
+    padding-top: 10px;
+}
+.skill {
+    width:30em;
+    height: 20%;
+    background-color: rgb(206, 201, 201);
+   margin: 5px;
+   padding: 5px;
+}
+.skill span{
+    background-color: red;
+    color:white;
+    
+    
+}
+.skills-secondary{
+    opacity: 50%;
+    padding-top: 10px;
+}
+.skills-primary span, .skills-secondary span{
+    padding-right: 50%;
+}
+
+.skills-primary{
+    padding-top: 20px;
+}
+a {
+    text-decoration: none;
+    color:red;
+}
+
+h4 { 
+    color:red;
+}
+.experience-institution {
+    font-weight: 100 ;
+}
+.experience-date{
+    color:gray;
+}
+.experience-location {
+    color: gray;
+}
+.experience-date-separator {
+    color:red;
+}
+.experience {
+    padding-top:10px;
+}
+.experience-details {
+    padding-left: 7px;
+    padding-top: 5px;
+}
+
+ul {
+    padding-left: 40px;
+    padding-top:10px ;
+}
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.contact-type {
+    color:white;
+    background-color: red;
+    padding-left: 2px;
+    width:80%;
+}
+
 
 }
 
