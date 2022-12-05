@@ -150,6 +150,17 @@ h3 {
     padding-right: 50%;
 }
 
+div.skills.skills-primary::before{
+    content:"Main";
+    color: black;
+    padding-left: 3px;
+}
+div.skills.skills-secondary::before{
+    content:"Main";
+    color: black;
+    padding-left: 3px;
+}
+
 }
 
 @media all and (max-width:874px) {
@@ -268,7 +279,16 @@ ul {
     padding-left: 2px;
     width:80%;
 }
-
+div.skills.skills-primary::before{
+    content:"Main";
+    color: black;
+    padding-left: 3px;
+}
+div.skills.skills-secondary::before{
+    content:"Main";
+    color: black;
+    padding-left: 3px;
+}
 
 }
 
