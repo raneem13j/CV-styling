@@ -70,12 +70,7 @@ p {
    margin: 5px;
    padding: 5px;
 }
-.skill span{
-    background-color: red;
-    color:white;
-    
-    
-}
+
 .skills-secondary{
     opacity: 50%;
 }
@@ -146,9 +141,29 @@ h3 {
     right: 430px;
     width: 27%;
 }
-.skills-primary span, .skills-secondary span{
+[data-skill="5"] span{
+    background-color: red;
     padding-right: 50%;
 }
+[data-skill="9"] span {
+    background-color: red;
+    padding-right: 80%;
+}
+[data-skill="3"] span {
+    background-color: red;
+    padding-right: 30%;
+}
+[data-skill="7"] span {
+    background-color: red;
+    padding-right: 60%;
+}
+[data-skill="1"] span {
+    background-color: red;
+    padding-right: 10%;
+}
+
+
+
 
 div.skills.skills-primary::before{
     content:"Main";
@@ -156,10 +171,12 @@ div.skills.skills-primary::before{
     padding-left: 3px;
 }
 div.skills.skills-secondary::before{
-    content:"Main";
+    content:"Other";
     color: black;
     padding-left: 3px;
 }
+
+
 
 }
 
@@ -289,6 +306,27 @@ div.skills.skills-secondary::before{
     color: black;
     padding-left: 3px;
 }
+[data-skill="5"] span{
+    background-color: red;
+    padding-right: 50%;
+}
+[data-skill="9"] span {
+    background-color: red;
+    padding-right: 80%;
+}
+[data-skill="3"] span {
+    background-color: red;
+    padding-right: 30%;
+}
+[data-skill="7"] span {
+    background-color: red;
+    padding-right: 60%;
+}
+[data-skill="1"] span {
+    background-color: red;
+    padding-right: 10%;
+}
+
 
 }
 
